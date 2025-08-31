@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;   
+}
+body{
+    background-color: #FFF7EA;
+}
+.header{
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    position: fixed;
+    width: 1500px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;    
+}
+.logo{
+    gap: -2%;
+    align-items: center;
+    display: flex;
+    font-family: "Archivo Black";
+}
+.navigation{
+    font-family: "Roboto";
+    display: flex;
+    margin-right: 140px;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    align-items: end;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    background-image: url(HErooo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 800px; 
+}
+.hero-text h2{
+    height: 70px;
+    margin-top: 90px;
+    margin-left: 50px;
+    line-height: 130%;
+    padding: 60px;
+    color: white;
+    font-family: "Fredoka";
+    font-size: 40px;    
+}
+.hero-text h1{
+    margin-left: 63px;
+    height: 50px;
+    padding: 40px;
+    color: white;
+    font-family: "League Spartan";
+    font-size: 110px;
+}
+.hero-text p{
+    height: 40px;
+    margin-left: 70px;
+    padding: 60px;
+    color: white;
+    font-family: "League Spartan";
+    font-size: x-large;
+}
+.hero-text button{
+    font-family: "Archivo Black";
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 150px;
+    border-color: #FFF7EA;
+    margin-left: 150px;
+    padding: 17px;
+    height: -10px;
+    width: 150px;
+    background-color: #FFF7EA;
+    color: black;
+}
+.hero-img{
+    background-image: url(hero\ pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: right;
+    margin-top: 80px;
+    margin-right: 125px;
+    border-radius: 350px;
+    width: 450px;
+    height: 450px;
+}
+.about{
+    display: flex;
+    color: #8a663f ;
+    font-family: "Old Standard TT";
+    margin-top: 3px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    padding-left: 110px;
+    padding-top: 50px;
+    height: 30px;  
+}
+.abtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding-top: 100px;
+    padding-left: 700px;
+}
+.abtext2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding-top: 100px;
+    padding-left: 700px;
+}
+.abtext2 h2{
+    background-color: lightgray;
+    border-radius:20px ;
+    margin-right: 330px;
+    margin-top: -50px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-size: x-large;
+    font-family: "Rubik";
+}
+.abtext h2{
+    padding-left: 0px;
+    border-radius:20px ;
+    margin-right: 570px;
+    color: black;
+    font-size: x-large;
+    font-family: "Rubik";
+}
+.abtext p{
+    padding-top: 20px;
+    color: black;
+    font-size: x-large;
+    font-family: "Rubik";
+    font-weight: lighter;
+    font-weight: normal;
+}
+.abtext2 p{
+    display: flex;
+    align-items: center;
+    padding-right: 120px;
+    color: black;
+    font-size: x-large;
+    font-family: "Rubik";
+    font-weight: lighter;
+    font-weight: normal;
+}
+.about-img{
+    background-image: url(me.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: -500px;
+    margin-left: 80px;
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+}
+.Hobbies h1{
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    font-size: xx-large;
+    color: #8a663f;
+}
+.hobs{
+    display: flex;
+    align-items: center;
+    padding-top: 300px;
+    justify-content: center;
+}
+.hob1{
+    background-color: lightgrey;
+    width: 200px;
+    height: 200px;
+}
+.hob2{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.hob3{
+    background-color: lightgrey;
+    width: 200px;
+    height: 200px;
+}
+.hob4{
+    background-color:  red;
+    width: 200px;
+    height: 200px;
+}
