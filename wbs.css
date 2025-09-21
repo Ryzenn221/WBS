@@ -42,6 +42,11 @@ body{
     text-decoration: none;
     color: black;
 }
+li:hover{
+    transform: translateY(-3px);
+    color: white;
+    font-weight: bolder;
+}
 .hero{
     background-image: url(HErooo.jpg);
     background-size: cover;
@@ -227,6 +232,12 @@ body{
     width: 250px;
     height: 400px;
 }
+.hob2:hover{
+    transform: translateY(-10px);
+    box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+-webkit-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+-moz-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+}
 .hob2 img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -247,6 +258,12 @@ body{
     width: 250px;
     height: 400px;
 }
+.hob3:hover{
+    transform: translateY(-10px);
+    box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+-webkit-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+-moz-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+}
 .hob3 img{
     background-size: contain;
     zoom: -20;
@@ -265,6 +282,12 @@ body{
     border-radius: 30px;
     width: 250px;
     height: 400px;
+}
+.hob4:hover{
+    transform: translateY(-10px);
+    box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+-webkit-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
+-moz-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
 }
 .hob4 img{
     border-top-left-radius: 20px;
@@ -287,13 +310,27 @@ body{
     display: flex;
 }
 .ss1{
-    justify-content: center;
+    justify-content: start;
     display: flex;
-    top: 20%;
-    margin-right: 50px;
-    margin-top: 220px;
+    margin-bottom: 110px;
+    margin-left: 40px;
     align-items: center;
     font-size: 80px;
+    color: #8a663f;
+}
+.pp{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+.pp1{
+    margin-left: 120px; 
+    color: #8a663f;
+}
+.pp2{
+    margin-right: 270px;
     color: #8a663f;
 }
 .skill{
