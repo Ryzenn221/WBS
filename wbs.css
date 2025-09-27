@@ -893,8 +893,7 @@ li:hover{
     background-color: black;
     flex-direction: row;
     gap: 5px;
-    margin-top: 15px;
-    
+    margin-top: 15px;   
     margin-right: 280px;
     border-radius: 20px;
     width: 150px;
@@ -919,7 +918,6 @@ li:hover{
 }
 .l3 button ,input{
     flex-direction: row;
-
 }
 .l3{
     display: flex;
