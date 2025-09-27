@@ -3,7 +3,6 @@
     padding: 0%;   
 }
 body{
-  
     background-color: #37353E;
     margin: 0;
     padding: 0;
@@ -16,7 +15,6 @@ body{
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    
     max-height: 100%;
 }
 .logo img{
@@ -817,8 +815,127 @@ li:hover{
     color: white;
 }
 .contact{
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    background-color: #37353E;
+    background-image: url(lss.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 650px;
+    width: 100%;
+    flex-direction: row;
+}
+.l{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    gap: 500px;
+}
+.ls{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    padding-top: 40px;
+    line-height: 2.1;
+    color: white;
+    font-family: "Fredoka";
+}
+.ls h2{
+    font-size: 30px; 
+    font-family: "Lato";
+}
+.l1{
+    font-size: 70px;
+}
+.ls label{
+     font-family: "Fredoka";
+     font-size: 30px;
+}
+.ls input{
+    width: 210px;
+    height: 30px;
+    border-radius: 20px;
+}
+.ls2{
+    line-height: 1.9;
+    color: white;
+    display: flex;
+    flex-direction: column;   
+    font-family: "Fredoka";
+    align-items: end;
+    margin-top: 140px;
+    margin-right: 50px;
+}
+.ls2 h1{
+    font-size: 75px;
+    font-family: "Fredoka";
+}
+.ls2 p{
+    line-height: 1;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    font-family: "Fredoka";
+    font-size: larger;
+}
+.v{
+    font-size: larger;
+    font-family: "Roboto";
+    margin-right: 130px;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+}
+.l2{
+    align-items: center;
+    display: flex;
+    object-fit: contain;
+    background-color: black;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 15px;
+    
+    margin-right: 280px;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+}
+.l2 img{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+.ls2 label{
+    font-size: 30px; 
+    margin-right: 270px;
+    font-family: "Lato";
+}
+.ls2 input{
+    white-space: nowrap;
+    margin-right: 170px;
+    border-radius: 20px;
+    height: 110px;
+    width: 250px;
+}
+.l3 button ,input{
+    flex-direction: row;
+
+}
+.l3{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+}
+.l3 button{
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin-top: 2px;
+    border-radius: 30px;
+    width: 100px;
+    height: 45px;
+    font-weight: bold;
 }
