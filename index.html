@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="wbs.css">
+   <script src="script.js"></script>
     <header class="header">
         <div class="logo">
             <a href="#" class="logo"><img src="logo-Picsart-BackgroundRemover.jpg" alt="AETHERZENN"></a>
@@ -29,17 +30,18 @@
             <h2>HELLO<br>I'M VINCE NAVARRO<br>A FUTURE</h2>
             <h1>Web Developer</h1>
             <P>Dedicated to Creating developer with a passion for<br>learning new technologies</P>
-            <button>LEARN MORE</button> 
+           <button onclick="goToContact()" id="learnMoreBtn">LEARN MORE</button> 
         </div>
         <div class="hero-img"></div>
     </section>
     <section class="About" id="about">
        <div class="about">
         <h1>ABOUT ME</h1>
-       </div>
-       <div class="abtext">
-        <h2>WHO AM I</h2>
-        <p>I'm someone who finds joy in life's simple pleasures — watching <br>
+    </div>
+       <div class="abp">
+        <div class="abtext">
+            <h2>WHO AM I</h2>
+            <p class="abp">I'm someone who finds joy in life's simple pleasures — watching <br>
             movies, playing games, listening to music, and getting enough rest.,<br>
             These things may seem small, but they help me recharge, stay inspired,<br>
             and connect with the world in my own way. As someone who's always <br>
@@ -49,12 +51,13 @@
             meaning in the experience. This portfolio reflects not just my work, but <br>
             the personality and passion I bring into everything I do. Every project, <br>
             no matter how big or small, carries a piece of who I am.</p>
-       </div>
-       <div class="abtext2">
-        <h2>EDUCATIONAL BACKGROUND</h2>    
-        <p>Currently taking the course of BSIT in Columban.<br>
-        SHS Graduate at ST Nicholas Academy of Castillejos INC.</p>
-       </div>
+        </div>
+        <div class="abtext2">
+            <h2>EDUCATIONAL BACKGROUND</h2>    
+            <p>Currently taking the course of BSIT in Columban.<br>
+                SHS Graduate at ST Nicholas Academy of Castillejos INC.</p>
+            </div>       
+        </div> 
        <div class="about-img"></div>
     </section>
     <section class="Hobbies" id="Hobby">
@@ -219,7 +222,11 @@
         <div class="ls2">
             <h1>THANK YOU!</h1>
             <p>For more information please reach out to me <br> through.</p>
-            <button class="v">Vincepogi@gmail.com</button>
+           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vincepogi@gmail.com&su=Inquiry%20from%20Website&body=Hi%20Vince%2C%20I%20saw%20your%20website%20and%20I'm%20interested%20in%20your%20services." target="_blank">
+            <button class="v">
+                vincepogi@gmail.com
+            </button>
+        </a>
             <div class="l2">
                 <img src="l2.png" alt="">
                 <h2>VN SYNC</h2>
@@ -242,9 +249,15 @@
         <div class="CPR2">
             <h2>FOLLOW ME</h2>
             <div class="fimg">
-                 <img src="faceb.png" alt="Facebook">
-                 <img src= "Igg.png" alt="Instagram">
-                 <img src="TTk.png" alt="Tiktok">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="faceb.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="Igg.png" alt="Instagram">
+                </a>
+                <a href="https://www.tiktok.com/" target="_blank">
+                    <img src="TTK.png" alt="Tiktok">
+                </a>
             </div>
         </div>
     </section>
