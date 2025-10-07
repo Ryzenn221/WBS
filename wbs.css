@@ -73,7 +73,7 @@ li:hover{
     padding: 40px;
     color: white;
     font-family: "League Spartan";
-    font-size: 110px;
+    font-size: 100px;
 }
 .hero-text p{
     height: 40px;
@@ -109,90 +109,67 @@ li:hover{
 }
 .About{
     background-color: #44444E;
-    padding-bottom: 20px;
+    height: 770px;
+    
 }
 .about{
     display: flex;
-    color: #37353E ;
+    color: whitesmoke ;
+    padding-top: 80px;
+    margin-left: 130px;
     font-family: "Old Standard TT";
     font-weight: bolder;
-    margin-top: 3px;
-    margin-bottom: 15px;
-    margin-left: 20px;
     font-size: 40px;
-    padding-left: 110px;
-    padding-top: 80px;
-    padding-bottom: 20px;
-    height: 30px;  
 }
-
-.abtext{
-    background-color: #37353E;
-     border: 1px solid black;
-  border-radius: 25px;
+.abt{
+    flex-direction: row;
+}
+.content{
+    background:  #44444E;
+    border: 1px solid black;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    line-height: 1.8;
+    color: white;
+}
+.all{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-    margin-top: 100px;
-    margin-left: 700px;
-}
-.abtext2{
-    background-color: #37353E;
-     border: 1px solid black;
-  border-radius: 25px;
-    display: flex;
-  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-    margin-top: 100px;
-    margin-left: 700px;
-}
-.abtext2 h2{ 
-    margin-right: 330px;
-    margin-top: -50px;
-    margin-top: 2px;
-    margin-left: 5px;
-    color: #D3DAD9;
-    font-size: x-large;
-    font-family: "Rubik";
-}
-.abtext h2{
-    padding-left: 0px;
-    border-radius:20px ;
-    margin-right: 570px;
-    color: #D3DAD9;
-    font-size: x-large;
-    font-family: "Rubik";
-}
-.abtext p{
-    padding-top: 20px;
-    color: #D3DAD9;
-    font-size: x-large;
-    font-family: "Rubik";
-    font-weight: lighter;
-    font-weight: normal;
-}
-.abtext2 p{
-    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    flex-direction: row;
     align-items: center;
-    padding-right: 120px;
-    color: #D3DAD9;
-    font-size: x-large;
-    font-family: "Rubik";
-    font-weight: lighter;
-    font-weight: normal;
+    gap: 5%;
 }
-.about-img{
-    background-image: url(me.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left;
-    margin-top: -550px;
-    margin-left: 80px;
-    width: 550px;
-    height: 550px;
+.infobox {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px 20px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 20px;
+    margin-top: 20px;
+}
+.info-label {
+    font-weight: 600;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+.info-value {
+    font-weight: 400;
+    
+}
+.abimg{
+    margin-left: 100px;
+    display: flex;
+    object-fit: contain;
+    height: 520px;
+    border-radius: 20px;
+}
+.abimg img{
+    width: 500px;;
     border-radius: 20px;
 }
 .Hobbies{
