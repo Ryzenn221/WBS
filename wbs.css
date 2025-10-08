@@ -97,6 +97,12 @@ li:hover{
     background-color: #FFF7EA;
     color: black;
 }
+.hero-text button:hover{
+    opacity: 0.8;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
 .hero-img{
     background-image: url(hero\ pic.jpg);
     background-size: cover;
@@ -880,8 +886,12 @@ li:hover{
     font-family: "Roboto";
     margin-right: 130px;
     border-radius: 20px;
+    transition: 0.5s ease;
     width: 300px;
     height: 30px;
+}
+.v:hover{
+    opacity: 0.7;
 }
 .l2{
     align-items: center;
@@ -940,6 +950,9 @@ li:hover{
     height: 45px;
     font-weight: bold;
 }
+.l3:hover{
+    opacity: 0.9;
+}
 .footer{
     background-color: lightgrey;
     display: flex;
@@ -967,4 +980,8 @@ li:hover{
 .fimg img{
     height: 35px;
     width: 35px;
+    transition: 0.5s ease;
+}
+.fimg img:hover{
+    opacity: 0.7;
 }
