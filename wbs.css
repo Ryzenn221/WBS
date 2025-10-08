@@ -891,7 +891,10 @@ li:hover{
     height: 30px;
 }
 .v:hover{
-    opacity: 0.7;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    transform: translateY(-1px);
 }
 .l2{
     align-items: center;
@@ -952,6 +955,8 @@ li:hover{
 }
 .l3:hover{
     opacity: 0.9;
+    transform: translateY(-2px);
+    transition: 0.3s ease-in-out;
 }
 .footer{
     background-color: lightgrey;
@@ -984,4 +989,5 @@ li:hover{
 }
 .fimg img:hover{
     opacity: 0.7;
+    transform: translateY(-2px);
 }
