@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+    .navigation{
+    margin-right: 110px;
+    gap: -5px;
+}
+.hero-text h1{
+   
+    color: white;
+    font-family: "League Spartan";
+    font-size: 30px;
+}
+.hero-img{
+    border-radius: 350px;
+    width: 250px;
+    height: 150px;
+}
+}
