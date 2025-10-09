@@ -237,6 +237,9 @@ li:hover{
     align-items: center;
     justify-content: space-between;
     display: flex;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
 }
 .ss1{
     justify-content: start;
@@ -333,11 +336,6 @@ li:hover{
     border-radius: 20px;
     width: 80%;
 }
-.s1s h2{
-    margin-left: 10px;
-    color: white;
-    font-weight: bold;
-}
 .s2{
     margin-top: 10px;
     display: flex;
@@ -356,11 +354,6 @@ li:hover{
     box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
 -webkit-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
 -moz-box-shadow: -1px -1px 64px 0px rgba(66,91,74,0.46);
-}
-.s2s h2{
-    margin-left: 10px;
-    color: white;
-    font-weight: bold;
 }
 .s3{
     margin-top: 20px;
@@ -381,11 +374,6 @@ li:hover{
     border-radius: 20px;
     width: 60%;
 }
-.s3s h2{
-    margin-left: 10px;
-    color: white;
-    font-weight: bold;
-}
 .s4{
     margin-top: 10px;
     display: flex;
@@ -404,11 +392,6 @@ li:hover{
     background-color: #37353E;
     border-radius: 20px;
     width: 80%;
-}
-.s4s h2{
-    margin-left: 10px;
-    color: white;
-    font-weight: bold;
 }
 .s5{
     display: flex;
@@ -429,11 +412,6 @@ li:hover{
     border-radius: 20px;
     width: 90%;
 }
-.s5s h2{
-    margin-left: 10px;
-    color: white;
-    font-weight: bold;
-}
 .s6{
     display: flex;
     background-color: #D3DAD9 ;
@@ -452,11 +430,6 @@ li:hover{
     background-color: #37353E;
     border-radius: 20px;
     width: 90%;
-}
-.s6s h2{
-    margin-left: 10px;
-    color: white;
-    font-weight: bold;
 }
 .s7{
     display: flex;
@@ -477,12 +450,6 @@ li:hover{
     border-radius: 20px;
     width: 80%;
 }
-.s7s h2{
-    margin-left: 10px;
-    color: white;
-    font-weight: bold;
-   
-}
 .s8{
     display: flex;
     background-color: #D3DAD9;
@@ -501,11 +468,6 @@ li:hover{
     background-color: #37353E;
     border-radius: 20px;
     width: 90%;
-}
-.s8s h2{
-    margin-left: 10px;
-    color: white;
-    font-weight: bold;
 }
 .PROJECTS{
     padding-top: 110px;
