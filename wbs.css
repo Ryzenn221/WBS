@@ -17,6 +17,7 @@ body{
     position: fixed;
     width: 100%;
     max-height: 100%;
+    z-index: 2;
 }
 .logo img{
     width: 70px;
@@ -113,6 +114,9 @@ li:hover{
     border-radius: 350px;
     width: 450px;
     height: 450px;
+    box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
+-webkit-box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
+-moz-box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
 }
 .About{
     width: 100%;
@@ -139,6 +143,11 @@ li:hover{
     border-radius: 20px;
     line-height: 1.8;
     color: white;
+}
+.content:hover{
+    box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
+-webkit-box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
+-moz-box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
 }
 .all{
     display: flex;
@@ -174,6 +183,12 @@ li:hover{
     object-fit: contain;
     height: 520px;
     border-radius: 20px;
+    box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
+-webkit-box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
+-moz-box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
+}
+.abimg:hover{
+    transform: translateY(1px);
 }
 .abimg img{
     width: 500px;;
@@ -190,6 +205,14 @@ li:hover{
     font-family: "Roboto";
     margin-top: 130px;
     color: white;
+    background: linear-gradient(90deg, #9ca3af, #d1d5db, #9ca3af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hh 3s ease-in-out infinite alternate;
+}
+@keyframes hh{
+    0% { text-shadow: 0 0 5px #888;}
+    100% { text-shadow: 0 0 20px #ccc;}
 }
 .hobs{
     margin-top: -170px;
@@ -264,6 +287,14 @@ li:hover{
     color: #37353E;
     font-family: "Old Standard TT";
     font-weight: bolder;
+    background: linear-gradient(90deg, #9ca3af, #d1d5db, #9ca3af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hh 5s ease-in-out infinite alternate;
+}
+@keyframes ss1{
+    0% { text-shadow: 0 0 5px #888;}
+    100% { text-shadow: 0 0 20px #ccc;}
 }
 .Skills{
     width: 100%;
@@ -405,9 +436,14 @@ li:hover{
 .prt{
     color: white;
     font-weight: bolder;
-    
     padding-bottom: 40px;
     text-align: center;
+}
+.prt:hover{
+     background: linear-gradient(90deg, #9ca3af, #d1d5db, #9ca3af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hh 5s ease-in-out infinite alternate;
 }
 .prt h1{
     font-size: 70px;
