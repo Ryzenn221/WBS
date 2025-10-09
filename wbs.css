@@ -225,21 +225,33 @@ li:hover{
 }
 .Skills{
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 55px;
     background-color: #44444E;
 }
-.ss{
-    width: 100%;
-    margin: 0 auto;
-    gap: 100px;
-    height: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    margin-left: 10px;
-    color: white;
-    font-weight: bold;
+.ss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  gap: 30px;
+  flex-wrap: wrap;
+  color: white;
+}
+.vin {
+  flex: 1 1 45%;
+}
+.vin h2 {
+    margin-left: 100px;
+  font-size: 1.4rem;
+  font-family: "Roboto";
+}
+.vin p {
+  margin-left: 100px;
+  font-weight: normal;
+   font-family: "Roboto";
+  color: #ccc;
+  font-size: 0.95rem;
 }
 .ss1{
     justify-content: start;
@@ -252,21 +264,6 @@ li:hover{
     color: #37353E;
     font-family: "Old Standard TT";
     font-weight: bolder;
-}
-.pp{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    font-weight: bolder;
-}
-.pp1{
-    margin-left: 120px; 
-    color: #D3DAD9;
-}
-.pp2{
-    margin-right: 270px;
-    color: #D3DAD9;
 }
 .Skills{
     width: 100%;
@@ -288,32 +285,12 @@ li:hover{
   flex-direction: column;
   transition: 0.3s ease-in-out;
 }
+.skill h3{
+    color: black;
+}
 .skill:hover{
     transform: translateY(-15px);
     box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
--webkit-box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
--moz-box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
-}
-.skill1{
-    margin-top: 20px;
-    margin-right: 140px;
-    justify-content: space-between;
-    background:  #44444E;
-    border: 1px solid black;
-  border-radius: 25px;
-  padding: 20px;
-  height: 300px;
-  width: 500px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.3 ease;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  transition: 0.3s ease-in-out;
-}
-.skill1:hover{
-    transform: translateY(-15px);
-   box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
 -webkit-box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
 -moz-box-shadow: 0px 2px 59px -15px rgba(162,162,162,0.75);
 }
