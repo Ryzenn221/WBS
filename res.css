@@ -1,17 +1,507 @@
+/* ---------- 1024px (Small laptops / tablets landscape) ---------- */
 @media (max-width: 1024px) {
-    .navigation{
-    margin-right: 110px;
-    gap: -5px;
+  /* Header */
+  .header {
+    padding: 15px 40px;
+  }
+
+  .logo img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .logo h1 {
+    font-size: 26px;
+  }
+
+  .navigation {
+    gap: 25px;
+  }
+
+  .navigation a {
+    font-size: 16px;
+  }
+
+  /* Hero Section */
+  .hero-text {
+        margin-left: 40px; /* gentle left alignment */
+    }
+
+    .hero-text h1 {
+        font-size: 52px; /* closer to desktop size */
+    }
+
+    .hero-text h2 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .hero img {
+        width: 420px; /* slightly smaller */
+        transform: translateX(20px);
+    }
+
+.About {
+    height: auto;
+    padding-bottom: 60px;
+  }
+
+  /* Adjust the main "ABOUT ME" title */
+  .about {
+    font-size: 32px;
+    margin-left: 60px;
+    padding-top: 50px;
+  }
+
+  /* Layout stays side-by-side but tighter */
+  .all {
+    gap: 3%;
+    padding: 20px 40px;
+  }
+
+  /* Make image smaller */
+  .abimg {
+    margin-left: 40px;
+    height: auto;
+  }
+
+  .abimg img {
+    width: 350px; /* smaller image */
+    border-radius: 18px;
+  }
+
+  /* Content box smaller */
+  .content {
+    width: 45%;
+    padding: 15px 20px;
+    border-radius: 18px;
+  }
+
+  /* Smaller heading & paragraph */
+  .content h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+ 
+  .infobox {
+    width: 90%;
+    gap: 10px 15px;
+    padding: 15px;
+  }
+
+  .info-label {
+    font-size: 13px;
+  }
+
+  .info-value {
+    font-size: 13px;
+  }
+   .hh {
+    font-size: 65px;
+    margin-top: 90px;
+  }
+
+  .hobs {
+    gap: 50px; 
+    margin-top: 60px;
+    margin-bottom: 20px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hob1 {
+    width: 200px; 
+    height: 330px;
+  }
+
+  .hob1 img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .pic1 {
+    margin-left: 15px;
+    padding: 12px;
+  }
+
+  .pic1 h2 {
+    font-size: 17px;
+  }
+
+  .pic1 img {
+    width: 40px;
+    height: 50px;
+  }
+
+  .pc {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .prc {
+    width: 280px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .prc h3 {
+    font-size: 20px;
+  }
+  .prc p {
+    font-size: 14px;
+  }
+  /* Footer */
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 20px 50px;
+  }
+  .CPR2{
+    margin-right: 150px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
 }
-.hero-text h1{
-   
+@media (max-width: 768px) {
+   .header {
+        flex-direction: column; /* Mobile: Stacked (Logo sa taas, Links sa baba) */
+        height: auto; /* Payagan ang header na lumaki para magkasya ang links */
+        padding: 10px 0;
+    }
+
+    .logo {
+        /* I-center ang logo block sa taas */
+        margin-bottom: 5px; 
+    }
+
+    .navigation {
+        flex-direction: column; /* Links ay nakasalansan (stacked) */
+        gap: 5px; /* Pinaliit na spacing sa pagitan ng stacked links */
+        margin-top: 5px; 
+        align-items: center; /* Center ang links */
+        text-align: center;
+    }
+.navigation li:hover {
+    transform: translateY(-2px);
+    transition: 0.3s ease-in-out;
     color: white;
-    font-family: "League Spartan";
-    font-size: 30px;
 }
-.hero-img{
-    border-radius: 350px;
+ .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px; 
+}
+.hero-img {
     width: 250px;
-    height: 150px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 10px 0 0 0; 
+    margin-right: 50px;
+}
+.hero-text {
+    margin-right: 80px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.hero-text h2 {
+    font-size: clamp(22px, 3vw, 30px);
+    margin: 0;
+    margin-top: 10px;
+    line-height: 1.1;
+}
+.hero-text h1 {
+    font-size: clamp(40px, 6vw, 55px); 
+    margin: 0;
+    
+    line-height: 1.1;
+}
+.hero-text p {
+    font-size: clamp(14px, 2.5vw, 18px); 
+    margin: 0;
+    margin-top: 0;
+    margin-top: -90px;
+    line-height: 1.2;
+}
+.hero-text button {
+    font-size: clamp(14px, 2.5vw, 16px);
+    padding: 10px 20px;
+    margin: 0;
+}
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+  .content{
+    height: 450px;
+  }
+  .about img {
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+  }
+  .info-label,.info-value{
+    height: 10px;
+    font-size: 9px;
+  }
+  .about-text {
+    max-width: 400px;
+    height: 180px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-text h1 {
+    font-size: 45px;
+  }
+  .about-text h2 {
+    font-size: 20px;
+  }
+  .content p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .footer {
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center;
+        height: 100px; 
+        padding: 0 40px; 
+    }
+    .CPR {
+        margin-left: 0; 
+        align-items: flex-start; 
+    }
+    .CPR2 {
+        margin-right: 0;
+        flex-direction: row; 
+        gap: 20px;
+    }
+    .fimg {
+        align-items: center;
+    }
+    .CPR2 h2 {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+.header {
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px;
+}
+.navigation {
+    flex-direction: row; 
+    gap: 10px; 
+    margin: 10px 0 0 0;
+    font-size: 14px; 
+}
+.logo{
+  margin-right: 15px;
+}
+.logo h1{
+  margin-right: 25px;
+}
+.hero-text {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.hero-text h2 {
+    font-size: clamp(24px, 3.5vw, 28px);
+    margin: 0;
+    margin-top: 80px;
+    line-height: 1.1;
+}
+.hero-text h1 {
+    font-size: clamp(45px, 6vw, 50px);
+    margin: 0;
+    line-height: 1.1;
+    margin-top: -10px;
+}
+.hero-text p {
+    font-size: clamp(14px, 2.5vw, 16px);
+    margin: 0;
+    margin-top: -40px;
+    line-height: 1.2;
+}
+.hero-text button {
+    font-size: clamp(14px, 2.5vw, 16px);
+    padding: 8px 16px;
+    margin-top: -15px; 
+}
+.About .all {
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px; 
+    padding: 10px;
+}
+.abimg {
+    margin-left: 0; 
+    width: 200px; 
+    height: auto;
+}
+.abimg img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 70%; 
+    padding: 15px;
+    font-size: 14px; 
+    line-height: 1.4;
+}
+.infobox {
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px 10px;
+    width: 90%;
+}
+
+.info-label {
+    font-size: 12px;
+}
+
+.info-value {
+    font-size: 12px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 15px;
+    height: auto;
+}
+.l {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    align-items: center;
+}
+.contact .ls,
+.contact .ls2 {
+    width: 90%;
+    font-size: 12px; 
+    text-align: center;
+    margin: 0;
+}
+.contact .ls label,
+.contact .ls2 label {
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.contact .ls input,
+.contact .ls2 input {
+    width: 100%;
+    height: 28px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    text-align: center;
+}
+.contact .ls2 .v {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    margin: 0; 
+}
+.contact .ls2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px 0; 
+    gap: 10px; 
+    width: 100%;
+    text-align: center;
+}
+.contact .l2 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 5px; 
+    margin: 5px 0; 
+    width: auto; 
+}
+.contact .ls,
+.contact .ls2 {
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin: 0; 
+    gap: 5px; 
+}
+.contact .ls label,
+.contact .ls2 label {
+    margin: 0; 
+    text-align: center; 
+    font-size: 13px;
+}
+.contact .l2 img {
+    width: 25px;
+    height: 25px;
+}
+
+.contact .l2 span {
+    font-size: 12px;
+    text-align: center;
+}
+.hobs, .pc {
+    flex-direction: column; 
+    align-items: center;
+    gap: 15px;
+}
+.skills-row {
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+.skills-column {
+    width: 100%;
+}
+.footer{
+  gap: 10%;
+  justify-content: center;
 }
 }

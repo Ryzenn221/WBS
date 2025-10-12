@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="wbs.css">
+    <link rel="stylesheet" href="res.css">
    <script src="script.js"></script>
     <header class="header">
         <div class="logo">
@@ -18,7 +19,7 @@
         </div>
         <ul class="navigation">
                 <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#about">ABOUT</a></li>
                 <li><a href="#Skills">SKILLS</a></li>
                 <li><a href="#Project">PROJECTS</a></li>
                 <li><a href="#Hobby">HOBBIES</a></li>
@@ -112,50 +113,30 @@
         </div>
     </section>
     <section class="Skills" id="Skills">
-          <h1 class="ss1">Skill Set</h1>
-          <div class="ss">
-            <div class="vin">
-                <h2 class="vin1">PROGRAMMING SKILLS</h2>
-                <p class="vin1">Passionate about building functional and scalable software.</p>
-                <div class="skill">
-                    <div class="s1">
-                        <div class="s1s"><h2>PYTHON</h2></div>
-                        <h3>70%</h3>
-                    </div>
-                    <div class="s2">
-                        <div class="s2s"><h2>HTML</h2></div>
-                        <h3>80%</h3>
-                    </div>
-                    <div class="s3">
-                        <div class="s3s"><h2>JAVA</h2></div>
-                        <h3>60%</h3>
-                    </div>
-                    <div class="s4">
-                        <div class="s4s"><h2>C++</h2></div>
-                        <h3>60%</h3>
-                    </div>
+         <h1 class="title">Skill Set</h1>
+         <div class="skills-row">
+            <div class="skills-column">
+                <div class="skills-text">
+                    <h2>PROGRAMMING SKILLS</h2>
+                    <p>Passionate about building functional and scalable software.</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skill"><span>PYTHON</span><div class="bar"><div class="progress" style="width:70%;">70%</div></div></div>
+                    <div class="skill"><span>HTML</span><div class="bar"><div class="progress" style="width:80%;">80%</div></div></div>
+                    <div class="skill"><span>JAVA</span><div class="bar"><div class="progress" style="width:60%;">60%</div></div></div>
+                    <div class="skill"><span>C++</span><div class="bar"><div class="progress" style="width:60%;">60%</div></div></div>
                 </div>
             </div>
-            <div class="vin">
-                <h2 class="vin1">PERSONAL SKILLS</h2>
-                <p class="vin1">Committed to continuous learning and professional growth.</p>
-                <div class="skill">
-                    <div class="s5">
-                        <div class="s5s"><h2>COMMUNICATION</h2></div>
-                        <h3>90%</h3>
-                    </div>
-                    <div class="s6">
-                        <div class="s6s"><h2>TEAM WORK</h2></div>
-                        <h3>90%</h3>
-                    </div>
-                    <div class="s7">
-                        <div class="s7s"><h2>ADAPTABILITY</h2></div>
-                        <h3>70%</h3>
-                    </div>
-                    <div class="s8">
-                        <div class="s8s"><h2>WORK ETHIC</h2></div>
-                        <h3>90%</h3>
-                    </div>
+            <div class="skills-column">
+                <div class="skills-text">
+                    <h2>PERSONAL SKILLS</h2>
+                    <p>Committed to continuous learning and professional growth.</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skill"><span>COMMUNICATION</span><div class="bar"><div class="progress" style="width:90%;">90%</div></div></div>
+                    <div class="skill"><span>TEAM WORK</span><div class="bar"><div class="progress" style="width:90%;">90%</div></div></div>
+                    <div class="skill"><span>ADAPTABILITY</span><div class="bar"><div class="progress" style="width:70%;">70%</div></div></div>
+                    <div class="skill"><span>WORK ETHIC</span><div class="bar"><div class="progress" style="width:90%;">90%</div></div></div>
                 </div>
             </div>
         </div>
@@ -209,38 +190,43 @@
         </div>
     </section>
     <section class="contact" id="Contact">
-        <div class="l">
+    <div class="l">
+        <form class="form-container">
             <div class="ls">
-            <h1 class="l1">CLIENT INPUT</h1>
-            <label for="Name">NAME:</label>
-            <input type="text" name="Name" id="Name">
-            <label for="Email">EMAIL:</label>
-            <input type="email" name="email" id="email">
-            <label for="Contact">CONTACT:</label>         
-            <input type="number" name="number" id="number">
-        </div>
-        <div class="ls2">
-            <h1>THANK YOU!</h1>
-            <p>For more information please reach out to me <br> through.</p>
-           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vincepogi@gmail.com&su=Inquiry%20from%20Website&body=Hi%20Vince%2C%20I%20saw%20your%20website%20and%20I'm%20interested%20in%20your%20services." target="_blank">
-            <button class="v">
-                vincepogi@gmail.com
-            </button>
-        </a>
-            <div class="l2">
-                <img src="l2.png" alt="">
-                <h2>VN SYNC</h2>
+                <h1 class="l1">CLIENT INPUT</h1>
+                <label for="Name">NAME:</label>
+                <input type="text" name="Name" id="Name" required>
+
+                <label for="Email">EMAIL:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="Contact">CONTACT:</label>
+                <input type="tel" name="number" id="number">
             </div>
-            <label for="Message">MESSAGE:</label>
-            <div class="pogi">
-                <input type="text" name="Message" id="Message">
-                <div class="l3">
-                    <button class="l3">SUBMIT</button>
+
+            <div class="ls2">
+                <h1>THANK YOU!</h1>
+                <p>For more information please reach out to me through:</p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vincepogi@gmail.com&su=Inquiry%20from%20Website&body=Hi%20Vince%2C%20I%20saw%20your%20website%20and%20I'm%20interested%20in%20your%20services." target="_blank" class="email-link">
+                    <button type="button" class="v">
+                        vincepogi@gmail.com
+                    </button>
+                </a>
+                <div class="l2">
+                    <img src="l2.png" alt="VN Sync logo">
+                    <h2>VN SYNC</h2>
+                </div>
+                <label for="Message">MESSAGE:</label>
+                <div class="message-area">
+                    <textarea name="Message" id="Message" rows="5"></textarea>
+                    <div class="l3">
+                        <button type="submit" class="submit-btn">SUBMIT</button>
+                    </div>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
-    </section>
+</section>
     <section class="footer">
         <div class="CPR">
             <h2>COPYRIGHT</h2>
