@@ -341,39 +341,36 @@
   margin-right: 25px;
 }
 .hero-text {
-    height: 500px;
+    height: auto; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: center; 
     align-items: center;
     text-align: center;
-    padding: 10px 20px;
+    padding: 20px 20px; 
     box-sizing: border-box;
     overflow: hidden;
 }
 .hero-text h2 {
-    font-size: clamp(24px, 3.5vw, 28px);
-    margin: 0;
-    margin-top: 80px;
-    line-height: 1.1;
+  
+    margin-top: 0;
+    margin-bottom: 5px; 
 }
 .hero-text h1 {
-    font-size: clamp(45px, 6vw, 50px);
-    margin: 0;
-    line-height: 1.1;
-    margin-top: -10px;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .hero-text p {
-    font-size: clamp(14px, 2.5vw, 16px);
-    margin: 0;
-    margin-top: -40px;
-    line-height: 1.2;
+  
+    margin-top: 10px; 
+    margin-bottom: 20px;
 }
 .hero-text button {
-    font-size: clamp(14px, 2.5vw, 16px);
-    padding: 8px 16px;
-    margin-top: -15px; 
+    margin-top: 0; 
+    margin-bottom: 20px;
 }
+
 .About .all {
     flex-direction: column; 
     align-items: center;
@@ -382,24 +379,19 @@
 }
 .abimg {
     margin-left: 0; 
-    width: 200px; 
+    width: 90%; 
+    max-width: 300px; 
     height: auto;
 }
-.abimg img {
-    width: 100%;
-    height: auto;
-}
-
 .content {
-    width: 70%; 
+    width: 90%; 
     padding: 15px;
     font-size: 14px; 
     line-height: 1.4;
 }
 .infobox {
-    grid-template-columns: 1fr 1fr; 
-    gap: 10px 10px;
-    width: 90%;
+   
+    width: 100%;
 }
 
 .info-label {
@@ -416,6 +408,7 @@
     justify-content: center;
     padding: 15px;
     height: auto;
+    width: 100%;
 }
 .l {
     display: flex;
@@ -511,7 +504,6 @@
 }
 .footer{
   text-align: center;
- 
   flex-direction: column;
 }
 .CPR2{
