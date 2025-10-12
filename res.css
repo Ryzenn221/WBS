@@ -81,7 +81,6 @@
   margin-top: 90px;
 }
 .hobs {
-  gap: 50px; 
   margin-top: 60px;
   margin-bottom: 20px;
   height: auto;
@@ -139,6 +138,7 @@
   display: flex;
   align-items: center;
   margin-left: 5px; 
+  font-size: 200px;
   padding: 0; 
 }
 .pic1 img {
@@ -147,7 +147,7 @@
   margin-right: 10px;
 }
 .pic1 h2 {
-  font-size: 3px;
+  font-size: 30px;
   margin: 0; 
   font-weight: 500; 
 }
@@ -369,8 +369,9 @@
   padding: 10px;
 }
 .about{
-  margin-right: 50px;
-  font-size: x-large;
+  justify-content: center;
+  margin-right: 80px;
+  font-size: large;
 }
 .abimg {
   margin-right: 100px; 
