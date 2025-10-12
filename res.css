@@ -180,21 +180,29 @@
 }
 @media (max-width: 768px) {
    .header {
-        flex-direction: column; /* Mobile: Stacked (Logo sa taas, Links sa baba) */
-        height: auto; /* Payagan ang header na lumaki para magkasya ang links */
+    width: 100%;
+        flex-direction: column; 
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         padding: 10px 0;
     }
 
     .logo {
-        /* I-center ang logo block sa taas */
+    
         margin-bottom: 5px; 
+    }
+    .logo h1{
+       margin-right: 90px;
     }
 
     .navigation {
-        flex-direction: column; /* Links ay nakasalansan (stacked) */
-        gap: 5px; /* Pinaliit na spacing sa pagitan ng stacked links */
+        flex-direction: row; /* Links ay nakasalansan (stacked) */
+        gap: 15px; /* Pinaliit na spacing sa pagitan ng stacked links */
         margin-top: 5px; 
-        align-items: center; /* Center ang links */
+        align-items: center;
+        margin-right: 5px;
         text-align: center;
     }
 .navigation li:hover {
@@ -203,6 +211,7 @@
     color: white;
 }
  .hero {
+  width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -232,7 +241,7 @@
 .hero-text h2 {
     font-size: clamp(22px, 3vw, 30px);
     margin: 0;
-    margin-top: 10px;
+    margin-top: 50px;
     line-height: 1.1;
 }
 .hero-text h1 {
@@ -245,7 +254,7 @@
     font-size: clamp(14px, 2.5vw, 18px); 
     margin: 0;
     margin-top: 0;
-    margin-top: -90px;
+    margin-top: 10px;
     line-height: 1.2;
 }
 .hero-text button {
@@ -290,19 +299,19 @@
     line-height: 1.5;
   }
   .footer {
-        flex-direction: row; 
+        flex-direction: column; 
         justify-content: space-between; 
         align-items: center;
-        height: 100px; 
+        height: 150px; 
         padding: 0 40px; 
     }
     .CPR {
         margin-left: 0; 
-        align-items: flex-start; 
+        
     }
     .CPR2 {
         margin-right: 0;
-        flex-direction: row; 
+        flex-direction: column; 
         gap: 20px;
     }
     .fimg {
@@ -501,7 +510,12 @@
     width: 100%;
 }
 .footer{
-  gap: 10%;
+  text-align: center;
+ 
+  flex-direction: column;
+}
+.CPR2{
   justify-content: center;
+  align-items: center;
 }
 }

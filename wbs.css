@@ -4,11 +4,14 @@
 }
 html{
     scroll-behavior: smooth;
+    /* IDAGDAG ITO DITO. Ito ang nagpi-pigil sa horizontal scrollbar. */
+    overflow-x: hidden; 
 }
 body{
     background-color: #37353E;
     margin: 0;
     padding: 0;
+    /* TANGGALIN O SIGURADUHING WALA ANG overflow-x: hidden; DITO */
 }
 .header{
     background-color: lightgrey;
@@ -52,6 +55,7 @@ li:hover{
     font-weight: bolder;
 }
 .hero {
+    width: 100%;
     background-image: url(HErooo.jpg); 
     background-size: cover;
     background-position: center;
@@ -122,6 +126,7 @@ li:hover{
     width: 100%;
     background-color: #44444E;
     height: 770px;
+  
 }
 .about{
     display: flex;
@@ -250,6 +255,7 @@ li:hover{
     padding-top: 30px;
     padding-bottom: 55px;
     background-color: #44444E;
+    width: 100%;
 }
 .ss {
   display: flex;
@@ -459,6 +465,7 @@ li:hover{
     --accent-color: black;
 }
 .contact {
+    width: 100%;
     background-image: url(lss.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -492,7 +499,7 @@ li:hover{
     font-size: 3.5rem;
     margin-bottom: 2rem;
     align-items: center;
-    margin-left: 40px;
+   text-align: center;
 }
 .ls label {
     font-size: 1.5rem;
@@ -607,6 +614,7 @@ li:hover{
     align-items: center;
     height: auto; 
     padding: 1rem 0;
+    width: 100%;
     text-align: center;
 }
 .CPR {
